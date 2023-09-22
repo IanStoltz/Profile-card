@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ian Stoltz" />
+    <meta
+      name="description"
+      content="A profile card to access my social networks, see work experiences, courses and contact information"
+    /> 
+    <title>Ian Stoltz Profile Card</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"  />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="card" data-state="#about">
+      <div class="card-header">
+        <div
+          class="card-cover"
+          style="
+            background-image: url('https://images.unsplash.com/photo-1685324358731-0c6e546a8fb7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');"
+            > </div>
+            <img class="card-avatar" src="img/image.jpg" alt="avatar" />
+            <h1 class="card-fullname">Ian Stoltz</h1>
+            <h2 class="card-jobtitle">IT Student</h2>
+      </div>
+      <div class="card-main">
+        <div class="card-section is-active" id="about">
+          <div class="card-content">
+            <div class="card-subtitle">ABOUT</div>
+            <p class="card-desc">Technical support and IT student.</p>
+          </div>
+          <nav class="card-social">
+            <a href="https://github.com/IanStoltz" target="_blank"
+              ><svg
+                aria-hidden="true"
+                data-prefix="fab"
+                data-icon="github"
+                className="prefix__svg-inline--fa prefix__fa-github prefix__fa-w-16"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 496 512"
+                {...props}
+              >
+                <path
+                  fill="{props.fill}"
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"
+                /></svg
+            ></a>
+            <a href="https://www.linkedin.com/in/ianrstoltz098/" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="{2500}"
+                height="{2389}"
+                viewBox="0 5 1036 990"
+                {...props}
+              >
+                <path
+                  d="M0 120c0-33.334 11.667-60.834 35-82.5C58.333 15.833 88.667 5 126 5c36.667 0 66.333 10.666 89 32 23.333 22 35 50.666 35 86 0 32-11.333 58.666-34 80-23.333 22-54 33-92 33h-1c-36.667 0-66.333-11-89-33S0 153.333 0 120zm13 875V327h222v668H13zm345 0h222V622c0-23.334 2.667-41.334 8-54 9.333-22.667 23.5-41.834 42.5-57.5 19-15.667 42.833-23.5 71.5-23.5 74.667 0 112 50.333 112 151v357h222V612c0-98.667-23.333-173.5-70-224.5S857.667 311 781 311c-86 0-153 37-201 111v2h-1l1-2v-95H358c1.333 21.333 2 87.666 2 199 0 111.333-.667 267.666-2 469z"
+                /></svg
+            ></a>
+            <a href="https://www.instagram.com/technic.ian/" target="_blank"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 2476 2476"
+                width="{2500}"
+                height="{2500}"
+                {...props}
+              >
+                <path
+                  d="M825.4 1238c0-227.9 184.7-412.7 412.6-412.7 227.9 0 412.7 184.8 412.7 412.7 0 227.9-184.8 412.7-412.7 412.7-227.9 0-412.6-184.8-412.6-412.7m-223.1 0c0 351.1 284.6 635.7 635.7 635.7s635.7-284.6 635.7-635.7-284.6-635.7-635.7-635.7S602.3 886.9 602.3 1238m1148-660.9c0 82 66.5 148.6 148.6 148.6 82 0 148.6-66.6 148.6-148.6s-66.5-148.5-148.6-148.5-148.6 66.5-148.6 148.5M737.8 2245.7c-120.7-5.5-186.3-25.6-229.9-42.6-57.8-22.5-99-49.3-142.4-92.6-43.3-43.3-70.2-84.5-92.6-142.3-17-43.6-37.1-109.2-42.6-229.9-6-130.5-7.2-169.7-7.2-500.3s1.3-369.7 7.2-500.3c5.5-120.7 25.7-186.2 42.6-229.9 22.5-57.8 49.3-99 92.6-142.4 43.3-43.3 84.5-70.2 142.4-92.6 43.6-17 109.2-37.1 229.9-42.6 130.5-6 169.7-7.2 500.2-7.2 330.6 0 369.7 1.3 500.3 7.2 120.7 5.5 186.2 25.7 229.9 42.6 57.8 22.4 99 49.3 142.4 92.6 43.3 43.3 70.1 84.6 92.6 142.4 17 43.6 37.1 109.2 42.6 229.9 6 130.6 7.2 169.7 7.2 500.3 0 330.5-1.2 369.7-7.2 500.3-5.5 120.7-25.7 186.3-42.6 229.9-22.5 57.8-49.3 99-92.6 142.3-43.3 43.3-84.6 70.1-142.4 92.6-43.6 17-109.2 37.1-229.9 42.6-130.5 6-169.7 7.2-500.3 7.2-330.5 0-369.7-1.2-500.2-7.2M727.6 7.5c-131.8 6-221.8 26.9-300.5 57.5-81.4 31.6-150.4 74-219.3 142.8C139 276.6 96.6 345.6 65 427.1 34.4 505.8 13.5 595.8 7.5 727.6 1.4 859.6 0 901.8 0 1238s1.4 378.4 7.5 510.4c6 131.8 26.9 221.8 57.5 300.5 31.6 81.4 73.9 150.5 142.8 219.3 68.8 68.8 137.8 111.1 219.3 142.8 78.8 30.6 168.7 51.5 300.5 57.5 132.1 6 174.2 7.5 510.4 7.5 336.3 0 378.4-1.4 510.4-7.5 131.8-6 221.8-26.9 300.5-57.5 81.4-31.7 150.4-74 219.3-142.8 68.8-68.8 111.1-137.9 142.8-219.3 30.6-78.7 51.6-168.7 57.5-300.5 6-132.1 7.4-174.2 7.4-510.4s-1.4-378.4-7.4-510.4c-6-131.8-26.9-221.8-57.5-300.5-31.7-81.4-74-150.4-142.8-219.3C2199.4 139 2130.3 96.6 2049 65c-78.8-30.6-168.8-51.6-300.5-57.5-132-6-174.2-7.5-510.4-7.5-336.3 0-378.4 1.4-510.5 7.5"
+                /></svg
+            ></a>
+          </nav>
+          </div>
+          <div class="card-section" id="experience">
+            <div class="card-content">
+              <div class="card-subtitle">WORK EXPERIENCE AND COURSES</div>
+              <div class="card-timeline">
+                  <div class="card-item" data-year="2020">
+                      <div class="card-item-title">Technical support</div>
+                      <div class="card-item-desc">
+                        - Corrective and preventive maintenance of computers;
+                        <br/>
+                        - Installing and configuring hardware and software;
+                        <br/>
+                        - Proficiency in Windows, knowledge in Linux;
+                        <br/>
+                        - Remote customer service;
+                        <br/>  
+                        - System installation and formatting;
+                        <br/>
+                        - Troubleshooting technical issues;
+                      </div>
+                      </div>
+                    </div>
+                <div class="card-item" data-year="2023">
+                  <div class="card-item-title">Courses</div>
+                  <div class="card-item-desc">
+                    - Agile Explorer by IBM;
+                    <br/>
+                    - Communication, Sales and Crisis Management Techniques by IBM;
+                    <br/>
+                    - Computer and Digital Device Operations by IBM;
+                    <br/>
+                    - Cybersecurity fundamentals by IBM;
+                    <br/>
+                    - Digital customer support by IBM;
+                    <br/>
+                    - Effective demand management by IBM;
+                    <br/> 
+                    - Git and GitHub by IBM;
+                    <br/> 
+                    - IT Fundamentals by IBM;
+                    <br/> 
+                    - Professional skills by IBM;
+                    <br/>
+                    - Python fundamentals by IBM;
+                    <br/>
+                    - Statistical data analysis in R by UFSCAR;
+                    <br/>
+                    - Technical problem solving by IBM;
+                    <br/>
+                    - Web development fundamentals by IBM;
+                    <br/> 
+                  </div>
+                  </div>                
+                </div>
+              </div>
+            </div>
+          <div class="card-section" id="contact">
+            <div class="card-content">
+              <div class="card-subtitle">CONTACT</div>
+              <div class="card-contact-wrapper">
+                <div class="card-contact">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                    <circle cx="12" cy="10" r="3" />
+                  </svg>
+                  Curitiba PR, Jardim Botânico, BR, 80210-300
+                </div>
+                <div class="card-contact">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewbox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"
+                    /></svg
+                  >(41) 9 9936-3933
+                </div>
+                <div class="card-contact">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                    />
+                    <path d="M22 6l-10 7L2 6" />
+                  </svg>
+                  ian.rstoltz@gmail.com
+                </div>
+                <a href="mailto:ian.rstoltz@gmail.com"
+                  ><button class="contact-me">WORK TOGETHER</button></a
+                >
+              </div>
+            </div>
+          </div>
+            <nav class="card-buttons">
+              <button data-section="#about" class="is-active">ABOUT</button>
+              <button data-section="#experience">EXPERIENCE</button>
+              <button data-section="#contact">CONTACT</button>
+            </nav>
+        </div>
+      </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
