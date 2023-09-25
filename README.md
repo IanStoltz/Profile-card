@@ -2,7 +2,7 @@
 
 Card interativo utilizando conhecimento em WebDev
 
-<a href="https://imgur.com/SQeIR1k"><img src="https://imgur.com/SQeIR1k"/></a>
+<a href="https://imgur.com/SQeIR1k"><img src="https://i.imgur.com/SQeIR1k.png"/></a>
 
 ## Tecnologias utilizadas
 
