@@ -2,6 +2,8 @@
 
 Card interativo utilizando conhecimento em WebDev
 
+<a href="https://imgur.com/SQeIR1k"><img src="https://imgur.com/SQeIR1k"/></a>
+
 ## Tecnologias utilizadas
 
 <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> 
